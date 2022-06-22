@@ -1,0 +1,28 @@
+/*   цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+
+body {
+/* font-family: 'Raleway', sans-serif;        перенести веб студия */
+font-family: 'Roboto', sans-serif;
+}
+ul {
+    list-style: none;
+}
+
+/* logo */
+.logo {
+    color: #000000;
+}
+span {
+    color: #2196F3;
+}
+
+/* site nav */
+.site-nav .link {
+    color: #212121 ;
+}
+.auth-nav .mail {
+    color:#757575 ;
+}.auth-nav .tel {
+    color: #757575;
+}
