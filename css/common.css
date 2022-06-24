@@ -11,20 +11,22 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--main-background);
 }
+
 ul {
   list-style: none;
 }
+
 /* hedder */
 /* logo */
 .logo {
   color: #000000;
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   text-decoration: none;
 }
+
 span {
   color: var(--accent-color);
 }
@@ -32,83 +34,65 @@ span {
 /* site nav */
 .site-nav .link {
   color: var(--primary-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-decoration: none;
 }
+
 .site-nav .link.current {
   color: var(--accent-color);
 }
 
 .auth-nav .contacts {
   color: var(--secondary-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-decoration: none;
 }
+
 .auth-nav .contacts.mail {
   color: var(--accent-color);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+
 .auth-nav .contacts:hover,
 .auth-nav .contacts:focus {
   color: var(--accent-color);
 }
 
-/* main */
-/* section Эффективные решения */
-.title {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  color: var(--color-white);
-  background: #2f303a;
-  width: 1600px;
-  height: 600px;
-}
-
-/* кнопка */
-.button {
+/* кнопки фильтра */
+.filter button {
   font-family: inherit;
-  font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 30px;
-  color: var(--color-white);
-  background: #2196f3;
+  line-height: 1.9;
   cursor: pointer;
 }
-.button:hover,
-.button:focus {
+.filter button:hover,
+.filter button:focus {
+  background-color: var(--accent-color);
   color: var(--color-white);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+}
+.btn-current {
+  background: var(--accent-color);
+  color: var(--color-white);
 }
 
-/* section Наши преимущества  */
-.subject {
-  font-style: normal;
-  font-size: 36px;
-  line-height: 42px;
+/* галерея работ */
+.heading {
+  font-size: 18px;
+  line-height: 2;
   color: var(--primary-text-color);
 }
-.subtitle {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 16px;
-  color: var(--primary-text-color);
-}
-.text {
-  font-size: 14px;
-  line-height: 24px;
+.paragraph {
+  font-size: 16px;
+  line-height: 1.9;
   color: var(--secondary-text-color);
 }
 
@@ -118,12 +102,14 @@ span {
   height: 252px;
   background: #2f303a;
 }
+
 .address {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+
 .address.link {
   color: var(--color-white);
 }
