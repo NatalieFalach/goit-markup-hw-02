@@ -34,16 +34,19 @@
   font-style: normal;
   font-size: 36px;
   line-height: 1.2;
-  color: var(--primary-text-color);
 }
 .subtitle {
   font-style: normal;
   font-size: 14px;
   line-height: 1.1;
-  color: var(--primary-text-color);
 }
 .text {
   font-size: 14px;
   line-height: 1.7;
+  color: var(--secondary-text-color);
+}
+.text-subject {
+  font-size: 16px;
+  line-height: 1.2;
   color: var(--secondary-text-color);
 }
