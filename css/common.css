@@ -3,13 +3,13 @@
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
   --color-white: #ffffff;
-  --main-background: #e5e5e5;
 }
 
 body {
-  /* font-family: 'Raleway', sans-serif;        перенести веб студия */
+  /* font-family: 'Raleway', sans-serif; */
   font-family: 'Roboto', sans-serif;
-  background-color: var(--main-background);
+  background-color: var(--color-white);
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -38,6 +38,7 @@ span {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
@@ -50,6 +51,7 @@ span {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav .contacts.mail {
@@ -64,36 +66,6 @@ span {
 .auth-nav .contacts:hover,
 .auth-nav .contacts:focus {
   color: var(--accent-color);
-}
-
-/* кнопки фильтра */
-.filter button {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.9;
-  cursor: pointer;
-}
-.filter button:hover,
-.filter button:focus {
-  background-color: var(--accent-color);
-  color: var(--color-white);
-}
-.btn-current {
-  background: var(--accent-color);
-  color: var(--color-white);
-}
-
-/* галерея работ */
-.heading {
-  font-size: 18px;
-  line-height: 2;
-  color: var(--primary-text-color);
-}
-.paragraph {
-  font-size: 16px;
-  line-height: 1.9;
-  color: var(--secondary-text-color);
 }
 
 /* footer */
