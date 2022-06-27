@@ -79,7 +79,6 @@ span {
   font-size: 44px;
   line-height: 1.4;
   color: var(--color-white);
-  width: 1600px;
   letter-spacing: 0.06em;
 }
 
@@ -159,7 +158,6 @@ span {
 
 /* footer */
 .footer {
-  width: 1600px;
   background: #2f303a;
 }
 
